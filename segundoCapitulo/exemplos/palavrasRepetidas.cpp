@@ -4,11 +4,11 @@ using namespace std;
 int main(){
     string anterior = "";
     string atual;
-    cout << "Crtl+D para sair";
+    cout << "Crtl+D para sair" << std::endl;
 
     while(cin >> atual){
         if (anterior == atual)
-            cout << "palavra repetida: " << atual << "\n";
+            cout << "palavra repetida: " << atual;
 
         anterior = atual;
     }
