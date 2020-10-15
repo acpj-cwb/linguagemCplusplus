@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     string anterior = "";
     string atual;
+    cout << "Crtl+D para sair";
 
     while(cin >> atual){
         if (anterior == atual)
