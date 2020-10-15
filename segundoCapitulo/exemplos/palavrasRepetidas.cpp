@@ -8,7 +8,7 @@ int main(){
 
     while(cin >> atual){
         if (anterior == atual)
-            cout << "palavra repetida: " << atual;
+            cout << "palavra repetida: " << atual << std::endl;
 
         anterior = atual;
     }
